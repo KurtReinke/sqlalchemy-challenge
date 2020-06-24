@@ -19,7 +19,7 @@ app1 = Flask(_name_)
 
 #Flask Routes
 @app.route("/")
-def Intro():
+def intro():
     return (
         f"Available API Routes:<br/>"
         f"<br/>"
