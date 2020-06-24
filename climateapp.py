@@ -14,7 +14,7 @@ Base.prepare(engine, reflect=True)
 me = Base.classes.measurements
 st = Base.classes.station
 #create the app
-app1 = Flask(_name_)
+app = Flask(_name_)
 
 
 #Flask Routes
